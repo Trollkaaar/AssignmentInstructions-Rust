@@ -5,7 +5,7 @@ Please follow the proper format of repository names, otherwise your submission m
 
 ### DD1337 Programmering:
 ```
-Haskell || Rust                     task-{2..7}
+Rust                                task-{2..7}
 C                                   task-7
 MIPS Assembly                       task-8        
 Architecture Design                 task-9        GRP
