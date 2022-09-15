@@ -172,7 +172,7 @@ trait Piece {
 struct King {/*...*/}
 
 impl Piece for King {
-
+    //...
 }
 
 //...
