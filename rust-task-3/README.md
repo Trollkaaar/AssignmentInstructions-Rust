@@ -81,7 +81,7 @@ struct Game {
     //...
 }
 ```
-You can further use an enumerators to index a sequence of bit maps.
+You can further use enumerators to index a sequence of bit maps.
 ```rs
 enum Piece {
     King = 0, Queen = 1, Bishop = 2, Knight = 3, Rook = 4, Pawn = 5
