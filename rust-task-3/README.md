@@ -97,7 +97,7 @@ struct Game {
 ```
 
 #### Enumerators
-Rust enumerators allows for polymorphism, unlike structs. However, an enumerators cannot hold fields, which are needed for colour and position.
+Rust enumerators allows for polymorphism, unlike structs. However, enumerators cannot hold fields, which are needed for colour and position.
 ```rs
 enum Piece {
     King, Queen, Bishop, Knight, Rook, Pawn
