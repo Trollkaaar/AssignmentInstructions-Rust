@@ -11,7 +11,7 @@ Take inspiration from existing chess games or go crazy and make something rustac
 1) Create a repository named `<KTH_ID>-chess-gui` under the `INDAPlus21` organisation and clone it.
 2) Navigate into your newly created repository and initialise a Rust application crate (like you did the first week).
 
-See the template crate for help with code setup.
+See the template crates for help with code setup.
 
 #### Game Engine
 
