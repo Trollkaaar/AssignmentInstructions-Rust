@@ -81,7 +81,7 @@ struct Game {
     //...
 }
 ```
-You can further use an enumerators to index a sequence of bit maps.
+You can further use enumerators to index a sequence of bit maps.
 ```rs
 enum Piece {
     King = 0, Queen = 1, Bishop = 2, Knight = 3, Rook = 4, Pawn = 5
@@ -97,7 +97,7 @@ struct Game {
 ```
 
 #### Enumerators
-Rust enumerators allows for polymorphism, unlike structs. However, an enumerators cannot hold fields, which are needed for colour and position.
+Rust enumerators allows for polymorphism, unlike structs. However, enumerators cannot hold fields, which are needed for colour and position.
 ```rs
 enum Piece {
     King, Queen, Bishop, Knight, Rook, Pawn
@@ -172,7 +172,7 @@ trait Piece {
 struct King {/*...*/}
 
 impl Piece for King {
-
+    //...
 }
 
 //...
