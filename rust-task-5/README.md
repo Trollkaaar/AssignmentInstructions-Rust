@@ -37,7 +37,7 @@ ContextBuilder::new()./*...*/.modules(conf::ModuleConf::default().audio(false));
 
 #### Chess GUI template
 
-Navigate in your command prompt/terminal to `./rust-task-5/chess-gui-template`. Run the application to show a chess board with the game state shown in text. 
+Navigate in your command prompt/terminal to `./rust-task-5/chess-gui-templates/*-template`. Run the application to show a chess board with the game state shown in text. 
 
 The `resources` directory contains image files for all chess pieces, as well as the application icon file. The chess piece image files are loaded into image structures; a gift from me to you. Switch out the image files if you prefer to render the pieces in a different style. 
 
