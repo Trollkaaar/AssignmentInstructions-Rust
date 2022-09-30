@@ -19,6 +19,9 @@ There are several Rust game engines to choose from. Shortlist example: https://b
 
 See `./chess-gui-templates` for two templates in Good Games Easily (GGEZ) and Piston.
 
+- _GGEZ_: Interface with game loop with implementation of `EventHandler`. May not work on every obscure Linux configuration.
+- _Piston_: Events as a stream iterator. You write the event loop. Don't handle text with grace.
+
 ##### GGEZ and Linux
 
 For the most pog of users, additional dependencies may have to be installed for GGEZ to interact properly with some hardware.
