@@ -2,9 +2,7 @@
 
 ## Chess GUI Project
 
-Congratulation ettan! You are now a proved owner of a killer ass chess engine. It's time to make it fabulous! Your assignment this week is to write a GUI applikation for a chess engine.
-
-To write a front-end in Rust, we'll use the [Good Game Easily library (GGEZ)](https://ggez.rs/). For help, you're refeered to the [library documentation](https://docs.rs/ggez/0.6.1/ggez/) and to the code repository's [very good examples](https://github.com/ggez/ggez/tree/master/examples).
+Congratulation ettan! You are now a proved owner of a killer ass chess engine. It's time to make it fabulous! Your assignment this week is to write a GUI applikation for a chess engine. The *CATCH* is that you cannot use your own chess engine(!). Therefore, if your chess engine implementation differs from the specifications stated in the `rust-task-3` instructions, write your own API specifications in a README markdown file and push it to your engine repository. 
 
 Take inspiration from existing chess games or go crazy and make something rustacular!
 
@@ -13,13 +11,16 @@ Take inspiration from existing chess games or go crazy and make something rustac
 1) Create a repository named `<KTH_ID>-chess-gui` under the `INDAPlus21` organisation and clone it.
 2) Navigate into your newly created repository and initialise a Rust application crate (like you did the first week).
 
-See the template crate for help with code setup.
+See the template crates for help with code setup.
 
 #### Game Engine
 
 There are several Rust game engines to choose from. Shortlist example: https://blog.logrocket.com/5-rust-game-engines-consider-next-project/
 
 See `./chess-gui-templates` for two templates in Good Games Easily (GGEZ) and Piston.
+
+- _GGEZ_: Interface with game loop through implementation of `EventHandler`. May not work on every obscure Linux configuration.
+- _Piston_: Events as a stream iterator. You write the event loop. Don't handle text with grace.
 
 ##### GGEZ and Linux
 
@@ -39,7 +40,7 @@ ContextBuilder::new()./*...*/.modules(conf::ModuleConf::default().audio(false));
 
 #### Chess GUI template
 
-Navigate in your command prompt/terminal to `./rust-task-5/chess-gui-template`. Run the application to show a chess board with the game state shown in text. 
+Navigate in your command prompt/terminal to `./rust-task-5/chess-gui-templates/*-template`. Run the application to show a chess board with the game state shown in text. 
 
 The `resources` directory contains image files for all chess pieces, as well as the application icon file. The chess piece image files are loaded into image structures; a gift from me to you. Switch out the image files if you prefer to render the pieces in a different style. 
 
@@ -50,4 +51,6 @@ chess_template = { git = "https://github.com/INDAPlus21/chess-template.git" }
 
 ### Grade
 
-To pass this assignment, write a GUI application which allows you to both play and replay chess. The *CATCH* is that you cannot use your own chess engine(!). Therefore, if your chess engine implementation differs from the specifications stated in the `rust-task-3` instructions, write your own API specifications in a README markdown file and push it to your engine repository. 
+To pass this assignment, write a GUI application which allows you to both play and replay chess. 
+
+Remember: Write neet code with elegant documentation.
