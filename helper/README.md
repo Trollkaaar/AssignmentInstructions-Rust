@@ -21,6 +21,8 @@ fn solve_problem(input: String) -> String {
 }
 
 mod tests {
+    use super::{helper, solve_problem};
+    
     #[test]
     fn local_test() {
         let (input_buffer, target_output_buffer) = helper::get_io(/*<test-name>*/);
