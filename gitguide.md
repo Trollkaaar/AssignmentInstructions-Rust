@@ -1,6 +1,8 @@
 # The git guide to git good
 For working in projects, proper `git` usage is important, especially when working with other developers. Therefore, i have created this eminent guide to teach y'all to `git`.
 
+**_Author_: Tobias Hansson <tohanss@kth.se>**
+
 ## Notes and terminology
 * I want to preface that `git` and `github` are different things, so when either is referenced, assume i am not talking about the other.
 > You can think of `git` as what you do locally on your computer and `github` as the website.
@@ -78,10 +80,3 @@ A merge is nothing special, just magic _tm_. Imagine that you (manually) look at
 Aside from being usefull locally, branches also make co-operation easier! If a remote is set up, such as github, pushing a branch will make that branch availiable on the remote as well, meaning that another user can fetch that branch and work inside it and create their own commits. 
 
 The most usefull usage, however, is merging directly on the remote. Pushing on the main branch is risky, therefore it is a good idead to do it on the remote. When pushing a branch, github will do a lot of the heavy lifting for you by giving you the option to create `pull requests`. A pull request is simply a fancy interface for merging branches like in the example above. In a pull request, you can directly see any changes made and provide feedback to other developers, you can also see beforehand if the branch can be merged into main, pressing the "Merge" button on github does nothing more than running the command: `$ git merge` command, like you would locally.
-
-
-TBA:
-(Blobs)
-WHAT IF SOMETHING GOES WRONG (reset, rebase, localy)
-
-github vs git (remotes?)
