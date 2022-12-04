@@ -26,7 +26,6 @@ fn solve_problem(input: String) -> String {
 /// Local tests.
 mod tests {
     use std::{fs::File, io::{BufReader}};
-    use super::solve_problem;
 
     #[test]
     fn it_works() {
@@ -36,7 +35,7 @@ mod tests {
     #[test]
     fn local_test() {
         let (input_buffer, target_output_buffer) = get_io(/*<test-name>*/);
-        let output = solve_problem(read_input(input_buffer));
+        let output = helper::solve_problem(read_input(input_buffer));
         // Assert output against target output...
     }
 }
