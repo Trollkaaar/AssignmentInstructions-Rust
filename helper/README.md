@@ -6,7 +6,7 @@ This test framework utilises that byte streams (`&[u8]`, `std::io::BufReader`, `
 
 If you are used to the structure `std::io::Lines`, don't fear; `std::str::Lines` is a compareable structure and is retured from the `lines` function of `str`.
 
-_Example_:
+_In short_:
 ```rs
 use std::io::{prelude::*, self};
 
