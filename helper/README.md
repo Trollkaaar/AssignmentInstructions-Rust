@@ -11,26 +11,20 @@ _In short_:
 use std::io::{prelude::*, self};
 
 fn main() {
-    println!("{}", solve_problem(read_input(io::stdin())));
+    println!("{}", solve_problem(helper::read_input(io::stdin())));
 }
 
 fn solve_problem(input: String) -> String {
     // Problem solution...
 }
 
-fn read_input<R: Read>(mut reader: R) -> String {/*...*/}
-
+/// Local tests.
 mod tests {
-    use std::{fs::File, io::{BufReader}};
-    use super::{read_input, solve_problem};
-
     #[test]
     fn local_test() {
-        let (input_buffer, target_output_buffer) = get_io("edge-case-1");
-        let output = solve_problem(read_input(input_buffer));
+        let (input_buffer, target_output_buffer) = helper::get_io(/*<test-name>*/);
+        let output = solve_problem(helper::read_input(input_buffer));
         // Assert output against target output...
     }
-
-    fn get_io(test_name: &str) -> (BufReader<File>, BufReader<File>) {/*...*/}
 }
 ```

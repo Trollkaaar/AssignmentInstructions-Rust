@@ -1,3 +1,5 @@
+use std::{fs::File, io::*};
+
 /// Reads string from given byte stream.
 /// 
 /// Takes a stream which implements trait `Read` and returns a string with all content from mensioned stream in UTF-8
