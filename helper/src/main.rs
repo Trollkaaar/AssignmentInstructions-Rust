@@ -23,9 +23,8 @@ fn solve_problem(input: String) -> String {
     // Problem solution...
 }
 
-/// Local tests.
 mod tests {
-    use std::{fs::File, io::{BufReader}};
+    use super::{helper, solve_problem};
 
     #[test]
     fn it_works() {

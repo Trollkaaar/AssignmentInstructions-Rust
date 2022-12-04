@@ -1,4 +1,4 @@
-use std::{fs::File, io::*};
+use std::{fs::File, io::{BufReader, Read}};
 
 /// Reads string from given byte stream.
 /// 
