@@ -20,7 +20,6 @@ fn solve_problem(input: String) -> String {
     // Problem solution...
 }
 
-/// Local tests.
 mod tests {
     #[test]
     fn local_test() {
