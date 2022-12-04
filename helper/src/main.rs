@@ -34,8 +34,8 @@ mod tests {
 
     #[test]
     fn local_test() {
-        let (input_buffer, target_output_buffer) = get_io(/*<test-name>*/);
-        let output = helper::solve_problem(read_input(input_buffer));
+        let (input_buffer, target_output_buffer) = helper::get_io(/*<test-name>*/);
+        let output = solve_problem(helper::read_input(input_buffer));
         // Assert output against target output...
     }
 }
