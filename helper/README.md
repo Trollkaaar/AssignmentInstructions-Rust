@@ -8,6 +8,8 @@ If you are used to the structure `std::io::Lines`, don't fear; `std::str::Lines`
 
 _In short_:
 ```rs
+mod helper;
+
 use std::io::{prelude::*, self};
 
 fn main() {
