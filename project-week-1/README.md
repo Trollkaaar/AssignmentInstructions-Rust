@@ -13,7 +13,7 @@ Since your project doesn't come with specific instructions or a clear picture of
 
 ## Assignment
 ### Define your project
-Yes! The task this week is only to continue preparing for the project. This is so that you can work on pallinda and the project in parallel while haveing time for both!
+Yes! The task this week is only to continue preparing for the project. This is so that you can work on pallinda and the project in parallel while having time for both!
 
 Keep on reading to find more detailed descriptions of some of these steps!
 
